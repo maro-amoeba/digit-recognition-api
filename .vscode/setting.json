@@ -1,0 +1,24 @@
+{
+    "files.exclude": {
+        "**/*.pyc": true,
+        ".nyc_output": true,
+        "obj": true,
+        "bin": true,
+        "**/__pycache__": true,
+        "**/.mypy_cache/**": true,
+    },
+    "[python]": {
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": true,
+        "editor.tabSize": 4
+    },
+    "python.pythonPath": "${workspaceRoot}/.venv/bin/python",
+    "python.linting.pylintEnabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.pep8Enabled": true,
+    "python.linting.pep8Args": ["--ignore=E501"],
+    "python.linting.flake8Args": [
+        "--max-line-length=120"
+    ]
+}
